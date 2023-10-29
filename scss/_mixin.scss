@@ -1,0 +1,27 @@
+@mixin btn1 {
+    width: 194px;
+    height: 63px;
+    border-radius: 10px;
+    color: var(--color-blue);
+}
+
+@mixin footer__btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #3C61E1;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 31px;
+    padding-right: 31px;
+
+    &:hover {
+        transition: all 0.7s ease;
+        background: #BEFFF7;
+        color: #000;
+    }
+}
